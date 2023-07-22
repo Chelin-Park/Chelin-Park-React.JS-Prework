@@ -1,0 +1,57 @@
+header {
+    padding-top: -25px;
+    height: 75px;
+    width: flex;
+    color: rgb(0, 0, 0);
+    background: #f0b104f6;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; /*how to make more divided?*/
+    position: fixed;  /*Position : Fixed*/
+    top: 0;
+    left:0;
+    right:0;
+    bottom:30px;
+  }
+  body{
+    padding-top : 25px;
+  }
+h1{
+    font: 'times new roman';
+    color:rgba(0, 38, 255, 0.993);
+    font-size : 40px;
+    padding-left:20px;
+    
+}
+#Contact_ian
+{
+    padding-left:50%;
+    font-size : 16px;
+    font-weight:100;    
+}
+p{
+    padding-left:30px;
+}
+
+.button
+{
+    background-color: rgb(231, 114, 114);
+    color : rgb(8, 2, 59);
+    border: none;
+      
+      padding: 20px 60px;
+      border-radius: 5%;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  
+}
+section
+{
+    background-color : rgb(231, 192, 20, 0.719);
+    
+}
