@@ -1,36 +1,57 @@
 header {
-    padding-top: -25px;
+    padding-top: 25px;
     height: 75px;
     width: flex;
     color: rgb(0, 0, 0);
     background: #f0b104f6;
     font-weight: bold;
     align-items: center;
+    align-content: space-around;
     display: flex;
-    justify-content: space-between; /*how to make more divided?*/
+    /*justify-content: space-between; /*how to make more divided?*/
     position: fixed;  /*Position : Fixed*/
     top: 0;
     left:0;
     right:0;
     bottom:30px;
+    flex-wrap : wrap;
+  }
+  head{
+    padding-top : 150px;
   }
   body{
     padding-top : 25px;
+    padding-left : 50px;
+    padding-right : 50px;
+    background-color: aquamarine;
+    font-family: 'Nova Mono', monospace;
   }
 h1{
     font: 'times new roman';
     color:rgba(0, 38, 255, 0.993);
-    font-size : 40px;
+    font-size : 25px;
     padding-left:20px;
     
+}
+h2{
+  font: 'times new roman';
+    color:rgba(0, 38, 255, 0.993);
+    font-size : 20px;
+    padding-left:20px;
 }
 #Contact_ian
 {
     padding-left:50%;
     font-size : 16px;
-    font-weight:100;    
+    font-weight:100;   
+    font-family: 'Nova Mono', monospace; 
 }
 p{
+  font-family: 'Nova Mono', monospace;
+    padding-left:30px;
+}
+#Input_ian001, #Input_ian002{
+  font-family: 'Nova Mono', monospace;
     padding-left:30px;
 }
 
@@ -49,9 +70,4 @@ p{
       margin: 4px 2px;
       cursor: pointer;
   
-}
-section
-{
-    background-color : rgb(231, 192, 20, 0.719);
-    
 }
